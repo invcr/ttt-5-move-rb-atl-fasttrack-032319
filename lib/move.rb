@@ -20,7 +20,7 @@ end
 
 def move(board, index, value="X")
 puts "do you want to be X or O?"
-value = gets.strip
+#value = gets.strip
 
 board[index] = value.to_i
 #update_array_at_with(board, index, value)
