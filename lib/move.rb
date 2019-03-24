@@ -15,14 +15,11 @@ input.to_i - 1
 end
 
 def update_array_at_with(board, index, value)
-#board[index] = value
+board[index] = value
 #end
 
 def move(board, index, value="X")
-#puts "do you want to be X or O?"
-#value = gets.strip
-
 board[index] = value
-#update_array_at_with(board, index, value)
+update_array_at_with(board, index, value)
 
 end
